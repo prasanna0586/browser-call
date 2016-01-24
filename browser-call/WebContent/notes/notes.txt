@@ -1,0 +1,7 @@
+Steps:
+
+Create an end point in plivo. Add an username and password to it.
+Provide the username and password in the servlet
+Add an application and make it Default. Add an answer url http://plivodirectdial.herokuapp.com/response/sip/route/?DialMusic=real&CLID=16624266258 and 
+hangup url http://plivodirectdial.herokuapp.com/response/sip/route/?DialMusic=real&CLID=16624266258 where 16624266258 is the plivo number
+URL to hit is http://127.0.0.1:8080/browser-call/make_outgoing

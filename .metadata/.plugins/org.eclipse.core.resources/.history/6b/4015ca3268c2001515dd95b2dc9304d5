@@ -1,0 +1,9 @@
+function login() {
+    var username = 'prasanna0586';
+    var password = 'Chelseafc@0586';
+    Plivo.conn.login(username, password);
+}
+function onReady() {
+    login();
+    console.log("onReady...");
+}

@@ -1,0 +1,20 @@
+2016-01-24 00:26:28,917 ERROR [Worker-1] - System.err - java.io.IOException: Cannot run program "C:\Program": CreateProcess error=2, The system cannot find the file specified
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at java.lang.ProcessBuilder.start(Unknown Source)
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at java.lang.Runtime.exec(Unknown Source)
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at java.lang.Runtime.exec(Unknown Source)
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at java.lang.Runtime.exec(Unknown Source)
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at org.jboss.tools.jmx.local.ProcessInformationStore.loadProcessStore(ProcessInformationStore.java:97)
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at org.jboss.tools.jmx.local.ProcessInformationStore.refreshProcessInformationStore(ProcessInformationStore.java:64)
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at org.jboss.tools.jmx.local.ProcessInformationStore$1.run(ProcessInformationStore.java:135)
+2016-01-24 00:26:28,918 ERROR [Worker-1] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2016-01-24 00:26:28,919 ERROR [Worker-1] - System.err - Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+2016-01-24 00:26:28,919 ERROR [Worker-1] - System.err - at java.lang.ProcessImpl.create(Native Method)
+2016-01-24 00:26:28,919 ERROR [Worker-1] - System.err - at java.lang.ProcessImpl.<init>(Unknown Source)
+2016-01-24 00:26:28,919 ERROR [Worker-1] - System.err - at java.lang.ProcessImpl.start(Unknown Source)
+2016-01-24 00:26:28,919 ERROR [Worker-1] - System.err - ... 8 more
+2016-01-24 00:41:28,624 ERROR [Worker-39] - System.err - Jan 24, 2016 12:41:28 AM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.3.1.Final
+2016-01-24 00:41:28,781 ERROR [Worker-39] - System.err - Jan 24, 2016 12:41:28 AM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.3.1.Final
+2016-01-24 00:41:28,845 ERROR [Worker-39] - System.err - Jan 24, 2016 12:41:28 AM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 4.0.9.Final

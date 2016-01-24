@@ -1,0 +1,9 @@
+function login() {
+    var username = 'abcd123456@phone.plivo.com';
+    var password = 'password';
+    Plivo.conn.login(username, password);
+}
+function onReady() {
+    login();
+    console.log("onReady...");
+}

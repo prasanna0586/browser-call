@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;make_outgoing.jsp&apos; to &apos;assets&apos;" description="Move &apos;make_outgoing.jsp&apos; to &apos;assets&apos;" destination="WebContent/assets" element1="WebContent/make_outgoing.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1453613768869" updateReferences="true"/>
+</session>
